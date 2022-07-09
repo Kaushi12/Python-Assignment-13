@@ -1,0 +1,6 @@
+1) Reading large files user is much easier in Excel for the end user. Also, you can have additional functions like selecting individual cells for import, convert dates and time automatically, reading formulas and their results, filters, sorting, etc.
+2) csv. writer() function returns a writer object that converts the user's data into a delimited string. This string can later be used to write into CSV files using the writerow() function.
+3) It opens the file to read-only in binary mode. The file pointer exists at the beginning of the file. The open() function will return the BufferedReader when we open the binary file for reading and the BufferedWriter file object when we open a binary file for writing.
+4) The csv. writer writerow method takes an iterable as an argument. Your result set has to be a list (rows) of lists (columns). Write the row parameter to the writer's file object, formatted according to the current dialect.
+5) The delimiter is the character that appears between cells on a row. By default, the delimiter for a CSV file is a comma. The line terminator is the character that comes at the end of a row. By default, the line terminator is a newline.
+6) loads() method return Python data structure of JSON string or data.
